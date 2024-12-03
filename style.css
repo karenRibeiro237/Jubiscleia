@@ -11,9 +11,24 @@ header{
 }
 
 section{
-    backgraund-color: rbg(117,112,122);
+    background-color: rbg(117,112,122);
     padding-top: 80px;
     padding-bottom: 80px;
     display:flex;
     justify-content: center;
+}
+ 
+img{
+    height: 200px; 
+}
+
+.categoria-video{
+    display: flex;
+    overflow-x: auto;
+    padding-right: 10px;
+    gap: 10px;
+}
+ 
+h2{
+    padding-left: 20px;
 }
